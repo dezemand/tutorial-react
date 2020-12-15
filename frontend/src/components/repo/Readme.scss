@@ -1,0 +1,27 @@
+@use "../../style/fonts/montserrat.scss";
+@use "../../style/fonts/jetbrainsmono.scss";
+@use "../../style/colors.scss";
+
+.container {
+  width: 900px;
+  margin: 48px auto 0;
+  font-family: montserrat.$font-family;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+  }
+
+  p, ol, ul, li {
+    font-weight: 300;
+  }
+
+  a {
+    font-weight: 400;
+    color: colors.$link;
+  }
+
+  pre, code {
+    font-family: jetbrainsmono.$font-family;
+    font-size: 12px;
+  }
+}

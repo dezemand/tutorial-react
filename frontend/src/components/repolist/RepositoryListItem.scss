@@ -1,0 +1,80 @@
+@use "../../style/fonts/montserrat.scss";
+
+.item {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 24px;
+  border: solid 1px #dddddd;
+  border-radius: 8px;
+  box-shadow: 0 0 16px rgba(221, 221, 221, 0.4);
+  transition: 0.5s box-shadow;
+  cursor: pointer;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &:hover {
+    box-shadow: 0 0 24px rgba(200, 200, 200, 0.7);
+  }
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  font-family: montserrat.$font-family;
+  font-weight: 300;
+}
+
+.repo-title {
+  font-family: montserrat.$font-family;
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.repo-user {
+  font-weight: 200;
+
+}
+
+.repo-name {
+  font-weight: 500;
+}
+
+.divider {
+  font-weight: 200;
+  padding: 0 6px;
+}
+
+.description {
+  font-family: montserrat.$font-family;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.archived {
+  font-weight: 200;
+  margin-left: 24px;
+  font-size: 14px;
+}
+
+.lower {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-family: montserrat.$font-family;
+}
+
+.language {
+  font-weight: 400;
+}
+
+.updated-at {
+  font-weight: 300;
+}
+
+.updated {
+  margin-left: 12px;
+}

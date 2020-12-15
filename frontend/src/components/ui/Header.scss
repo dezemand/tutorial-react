@@ -1,0 +1,23 @@
+@use "../../style/fonts/montserrat.scss";
+@use "../../style/colors.scss";
+
+.container {
+  width: 900px;
+  margin: 48px auto 0;
+}
+
+.back {
+  font-family: montserrat.$font-family;
+  font-weight: 200;
+  font-size: 24px;
+  color: colors.$link;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+.title {
+  font-family: montserrat.$font-family;
+  font-weight: 200;
+  font-size: 48px;
+  margin-top: 8px;
+}

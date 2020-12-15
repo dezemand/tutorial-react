@@ -1,0 +1,33 @@
+@use "../../style/colors.scss";
+@use "../../style/fonts/montserrat.scss";
+
+.container {
+  background-color: colors.$background;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: montserrat.$font-family;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 128px;
+  margin: 12px 0;
+}
+
+.subtitle {
+  font-size: 64px;
+  margin: 12px 0;
+  font-weight: 200;
+}
+
+.back {
+  font-size: 32px;
+  margin: 12px 0;
+  font-weight: 200;
+  text-decoration: none;
+  color: colors.$link;
+}

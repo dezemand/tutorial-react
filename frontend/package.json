@@ -1,9 +1,23 @@
 {
   "name": "tutorial-react-frontend",
   "version": "1.0.0",
+  "private": true,
+  "description": "Simple example app for browsing GitHub repositories",
+  "repository": {
+    "url": "https://github.com/dezemand/tutorial-react.git",
+    "directory": "frontend",
+    "type": "git"
+  },
+  "scripts": {
+    "start:dev": "webpack-dev-server",
+    "build": "webpack --env.prod",
+    "build:dev": "webpack"
+  },
   "dependencies": {
+    "core-js": "^3.8.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-markdown": "^5.0.3",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0"
   },
@@ -30,8 +44,8 @@
     "sass-loader": "^10.1.0",
     "style-loader": "^2.0.0",
     "url-loader": "^4.1.1",
-    "webpack": "^5.10.1",
-    "webpack-cli": "^4.2.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "3.3.12",
     "webpack-dev-server": "^3.11.0"
   }
 }

@@ -1,0 +1,42 @@
+@use "../../style/fonts/montserrat.scss";
+@use "../../style/colors.scss";
+
+.container {
+  width: 800px;
+  max-width: calc(100vw - 24px);
+  margin-bottom: 15vh;
+  position: relative;
+}
+
+.input {
+  width: calc(100% - 64px);
+  border: solid 1px #dddddd;
+  border-radius: 8px;
+  padding: 24px 32px;
+  font-size: 32px;
+  font-family: montserrat.$font-family;
+  font-weight: 300;
+  box-shadow: 0 0 16px rgba(221, 221, 221, 0.4);
+  transition: 0.5s box-shadow;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 24px rgba(200, 200, 200, 0.7);
+  }
+}
+
+.submit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: none;
+  margin: 24px 12px;
+  width: 48px;
+  background: url(../../assets/icons/arrow-left.svg) no-repeat center;
+  background-size: contain;
+}
+
+.submit-icon {
+  height: 100%;
+}

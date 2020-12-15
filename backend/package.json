@@ -1,6 +1,13 @@
 {
   "name": "tutorial-react-backend",
   "version": "1.0.0",
+  "private": true,
+  "description": "A simple backend for a React tutorial",
+  "repository": {
+    "url": "https://github.com/dezemand/tutorial-react.git",
+    "directory": "backend",
+    "type": "git"
+  },
   "scripts": {
     "start": "node src/index"
   },

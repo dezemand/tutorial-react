@@ -1,0 +1,21 @@
+@use "../../style/colors.scss";
+@use "../../style/fonts/montserrat.scss";
+
+.container {
+  background-color: colors.$background;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 900px;
+  margin: 48px auto 0;
+}
+
+.username {
+  font-weight: 500;
+
+}
